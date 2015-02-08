@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shot Timer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section_Dummy">Dummy</string>
+    <string name="title_activity_gunner_selection">Gunners</string>
+    <string name="title_activity_shooting">Shooting</string>
+    <string name="active_gunner">Gunner</string>
+    <string name="enter_gunners_name">Enter gunner\'s name</string>
+    <string name="known_gunners">Known Gunners</string>
+    <string name="chronometer">Chronometer</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="start">Start</string>
+    <string name="Shot">Shot</string>
+    <string name="targets">Targets</string>
+    <string name="title_activity_scoring">Scoring</string>
+    <string name="action_addGunner">add Gunner</string>
+    <string name="action_about">About</string>
+    <string name="title_activity_gunner">Gunner</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="under_development">under development</string>
+    <string name="standBy">Stand By</string>
+    <string name="pref_title_shooting">Shooting</string>
+    <string name="pref_title_autostart_enabled">Start automatically</string>
+    <string name="pref_summary_autostart_enabled">Autostart from standby after delay</string>
+    <string name="pref_title_autostart_minsecs">Autostart minimum delay</string>
+    <string name="pref_summary_autostart_minsecs">Minimum delay in seconds</string>
+    <string name="pref_title_autostart_maxsecs">Autostart maximum delay</string>
+    <string name="pref_summary_autostart_maxsecs">Maximum delay in seconds</string>
+    <string name="pref_title_startsound">Play start sound</string>
+    <string name="pref_title_startsound_volume">Start sound volume</string>
+    <string name="pref_summary_startsound_volume">Volume of start sound in percent</string>
+    <string name="pref_key_autostart_enabled">pref_key_autostart_enabled</string>
+    <string name="pref_key_autostart_minsecs">pref_key_autostart_minsecs</string>
+    <string name="pref_key_autostart_maxsecs">pref_key_autostart_maxsecs</string>
+    <string name="pref_key_startsound_enabled">pref_key_startsound_enabled</string>
+    <string name="pref_key_startsound_volume">pref_key_startsound_volume</string>
+    <string name="pref_title_save">Save</string>
+    <string name="pref_title_save_shotlist">Save shot times</string>
+    <string name="pref_summary_save_shotlist">Keep a unique file for each shooting</string>
+    <string name="pref_title_save_samples">Save sound samples</string>
+    <string name="pref_summary_save_samples">Keep a unique file for each shooting</string>
+    <string name="pref_title_fft_analysis">FFT analysis parameter</string>
+    <string name="pref_title_FFT_MeanValMin">MeanValMin</string>
+    <string name="pref_summary_FFT_MeanValMin"/>
+    <string name="pref_title_FFT_SumValMin">SumValMin</string>
+    <string name="pref_summary_FFT_SumValMin"/>
+    <string name="pref_title_FFT_MeanMinValMin">MeanMinValMin</string>
+    <string name="pref_summary_FFT_MeanMinValMin"/>
+    <string name="pref_title_FFT_SumMinValMin">SumMinValMin</string>
+    <string name="pref_summary_FFT_SumMinValMin"/>
+    <string name="keyvalues">Key values</string>
+    <string name="title_activity_audio">Audio</string>
+    <string name="Load_samples">Load samples</string>
+    <string name="no_ActionBar_available">no ActionBar available</string>
+
+</resources>
+

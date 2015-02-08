@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="pref_key_shooting_settings"
+        android:title="@string/pref_title_shooting" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pref_key_autostart_enabled"
+            android:summary="@string/pref_summary_autostart_enabled"
+            android:title="@string/pref_title_autostart_enabled" />
+
+        <EditTextPreference
+            android:defaultValue="3"
+            android:dependency="@string/pref_key_autostart_enabled"
+            android:key="@string/pref_key_autostart_minsecs"
+            android:maxLength="1"
+            android:numeric="integer"
+            android:summary="@string/pref_summary_autostart_minsecs"
+            android:title="@string/pref_title_autostart_minsecs" />
+        <EditTextPreference
+            android:defaultValue="7"
+            android:dependency="@string/pref_key_autostart_enabled"
+            android:key="@string/pref_key_autostart_maxsecs"
+            android:maxLength="1"
+            android:numeric="integer"
+            android:summary="@string/pref_summary_autostart_maxsecs"
+            android:title="@string/pref_title_autostart_maxsecs" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pref_key_startsound_enabled"
+            android:title="@string/pref_title_startsound" />
+
+        <EditTextPreference
+            android:defaultValue="75"
+            android:dependency="@string/pref_key_startsound_enabled"
+            android:key="@string/pref_key_startsound_volume"
+            android:maxLength="3"
+            android:numeric="integer"
+            android:summary="@string/pref_summary_startsound_volume"
+            android:title="@string/pref_title_startsound_volume" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_key_save_settings"
+        android:title="@string/pref_title_save" >
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_key_save_shotlist"
+            android:summary="@string/pref_summary_save_shotlist"
+            android:title="@string/pref_title_save_shotlist" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_key_save_samples"
+            android:summary="@string/pref_summary_save_samples"
+            android:title="@string/pref_title_save_samples" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_key_fft_analysis"
+        android:title="@string/pref_title_fft_analysis" >
+
+        <EditTextPreference
+            android:defaultValue="3"
+            android:key="pref_key_FFT_MeanValMin"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:summary="@string/pref_summary_FFT_MeanValMin"
+            android:title="@string/pref_title_FFT_MeanValMin" />
+
+        <EditTextPreference
+            android:defaultValue="2000"
+            android:key="pref_key_FFT_SumValMin"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:summary="@string/pref_summary_FFT_SumValMin"
+            android:title="@string/pref_title_FFT_SumValMin" />
+
+        <EditTextPreference
+            android:defaultValue="3"
+            android:key="pref_key_FFT_MeanMinValMin"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:summary="@string/pref_summary_FFT_MeanMinValMin"
+            android:title="@string/pref_title_FFT_MeanMinValMin" />
+
+        <EditTextPreference
+            android:defaultValue="1000"
+            android:key="pref_key_FFT_SumMinValMin"
+            android:maxLength="4"
+            android:numeric="integer"
+            android:summary="@string/pref_summary_FFT_SumMinValMin"
+            android:title="@string/pref_title_FFT_SumMinValMin" />
+    </PreferenceCategory>
+</PreferenceScreen>

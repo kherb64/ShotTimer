@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shot Timer</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="title_section_Dummy">Dummy</string>
+    <string name="title_activity_gunner_selection">Schützen</string>
+    <string name="title_activity_shooting">Schießen</string>
+    <string name="active_gunner">Schütze</string>
+    <string name="enter_gunners_name">Name des Schützen eingeben</string>
+    <string name="known_gunners">Schützen</string>
+    <string name="chronometer">Zeitnehmung</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="start">Start</string>
+    <string name="Shot">Schuss</string>
+    <string name="targets">Ziele</string>
+    <string name="title_activity_scoring">Treffer</string>
+    <string name="action_addGunner">neuer Schütze</string>
+    <string name="action_about">Über</string>
+    <string name="title_activity_gunner">Schütze</string>
+    <string name="title_section1">Sektion 1</string>
+    <string name="title_section2">Sektion 2</string>
+    <string name="title_section3">Sektion 3</string>
+    <string name="save">Speichern</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="under_development">in Entwicklung</string>
+    <string name="standBy">Stand By</string>
+    <string name="Load_samples">lade Samples</string>
+    <string name="pref_title_startsound" translatable="false"></string>
+
+</resources>

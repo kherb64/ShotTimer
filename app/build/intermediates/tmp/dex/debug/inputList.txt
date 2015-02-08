@@ -1,0 +1,2 @@
+/home/herb/Development/android-studio/ShotTimer/app/build/intermediates/classes/debug
+/home/herb/Development/android-studio/ShotTimer/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-7525a62b7309d90eb2f8ab58c437068298eac55b.jar

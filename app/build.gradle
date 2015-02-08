@@ -1,0 +1,18 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '21.1.2'
+    buildTypes {
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    defaultConfig {}
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:19.1.+'
+}
